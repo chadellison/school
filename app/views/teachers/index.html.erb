@@ -1,1 +1,4 @@
 <%= link_to "Add Teacher", new_teacher_path %>
+<% @teachers.each do |teacher| %>
+<p><%= "#{teacher.name}: #{teacher.subject}" %></p>
+<% end %>
