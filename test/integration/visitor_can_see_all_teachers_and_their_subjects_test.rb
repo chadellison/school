@@ -21,6 +21,5 @@ class VisitorCanSeeAllTeachersAndTheirSubjectsTest < ActionDispatch::Integration
     assert page.has_content? "Martha"
     assert page.has_content? "Harris: English"
     assert page.has_content? "Frank"
-
   end
 end
